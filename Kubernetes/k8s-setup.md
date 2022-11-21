@@ -4,13 +4,11 @@
 
 1. Create Ubuntu EC2 instance
 1. install AWSCLI
-   ```sh 
-    curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
-    apt install unzip python
-    unzip awscli-bundle.zip
-    #sudo apt-get install unzip - if you dont have unzip in your system
-    ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
-    ```
+sudo apt update && sudo apt upgrade
+sudo apt install python3-pip
+sudo -H pip3 install awscli --upgrade --user
+cd ~/.local/bin/
+./aws --version
     
 1. Install kubectl
    ```sh

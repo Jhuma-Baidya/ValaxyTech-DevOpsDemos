@@ -32,7 +32,7 @@ cd ~/.local/bin/
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
 1. create an S3 bucket 
    ```sh
-    aws s3 mb s3://dev.k8s.valaxy.in
+    aws s3 mb s3://jhuma.k8s.valaxy.in
    ```
 1. Expose environment variable:
    ```sh 
